@@ -1,0 +1,64 @@
+.container {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+    background-color: red;
+}
+
+.choices {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.clear {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.black {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.gray {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid gray;
+}
+
+.rainbow {
+    background: white; 
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.black:hover {
+    transition: 0.4s ease;
+    background-color: black;
+    color: white;
+}
+
+.gray:hover {
+    transition: .4s ease;
+    background-color: grey;
+}
+
+.rainbow:hover {
+    transition: .4s ease;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+}
